@@ -17,6 +17,9 @@
     "hexo-server": "~0.2.1",
     "hexo-deployer-git": "~0.3.0",
     "hexo-util": "~0.6.0",
-    "swig": "~1.4.2"
+    "swig": "~1.4.2",
+    "hexo-heading-index": "~1.0.1",
+    "hexo-generator-search": "~2.1.1",
+    "shelljs": "~0.7.8"
   }
 }
