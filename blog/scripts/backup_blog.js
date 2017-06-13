@@ -31,23 +31,5 @@ function run() {
 
 		}
 		echo("==================Auto Backup Hexo Complete============================")
-		echo("======================Auto Backup Next Begin===========================");
-		cd('/home/wangyushun/git/github/backup/blog/themes/next');    //此处修改为Hexo根目录路径
-		if (exec('git add --all').code !== 0) {
-			echo('Error: Git add failed');
-			exit(1);
-
-		}
-		if (exec('git commit -am "Form auto backup script\'s commit"').code !== 0) {
-			echo('Error: Git commit failed');
-			exit(1);
-
-		}
-		if (exec('git push origin custom').code !== 0) {
-			echo('Error: Git push failed');
-			exit(1);
-
-		}
-		echo("==================Auto Backup Next Complete============================")
 	}
 }
