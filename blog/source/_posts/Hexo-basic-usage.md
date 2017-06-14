@@ -21,6 +21,8 @@ comments: true
  + cd blog
  + npm install
  + hexo server
+
+<!--more-->
  
 ### add tabs
 #### about

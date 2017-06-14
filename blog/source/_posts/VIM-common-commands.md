@@ -23,6 +23,8 @@ comments: true
 | Fx | 到本行前一个为x的字符处 | Tx | 到本行前一个x后的字符处 |
 | ,,w | EasyMotion插件 | ,,b | EasyMotion插件 |
 
+<!--more-->
+
 ## 复制粘贴
 
 | 命令 | 作用 | 命令 | 作用 |
