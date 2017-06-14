@@ -67,6 +67,19 @@ pagination_dir: page
 #theme: landscape
 theme: next
 
+# algolia serach config
+algolia:
+  appId: 'SI7LHF9NBH'
+  apiKey: 'e70ae6e7ce04e6f6020ee183a5f000b0'
+  adminApiKey: 'e5f838c06a3fc3178c6088e75ad12ff0'
+  indexName: 'ricann'
+  chunkSize: 5000
+  fields:
+    - title
+    - slug
+    - path
+    - content:strip
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
