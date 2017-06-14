@@ -4,7 +4,7 @@ subtitle: Install, config Hexo and Next
 date: 2017-06-13 20:52:33
 author: Ricann
 head-img: 
-categories:  tools
+categories: tools
 tags:  
  - tools
  - hexo
