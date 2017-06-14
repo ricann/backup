@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hexo basic usage
 subtitle: Install, config Hexo and Next
 date: 2017-06-13 20:52:33

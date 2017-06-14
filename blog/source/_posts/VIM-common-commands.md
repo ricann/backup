@@ -1,4 +1,4 @@
-﻿---
+---
 title: VIM common commands
 subtitle: VIM's basic usage
 date: 2017-06-14 15:12:14
