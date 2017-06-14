@@ -4,7 +4,7 @@ subtitle: Install, config Hexo and Next
 date: 2017-06-13 20:52:33
 author: Ricann
 head-img: 
-categories: tools
+categories:  tools
 tags:  
  - tools
  - hexo
@@ -22,7 +22,25 @@ comments: true
  + npm install
  + hexo server
  
-### add local search
+### add tabs
+#### about
+>hexo new page "about"
+
+#### tags
+create page:
+>hexo new page "tags"
+ 
+ attention: you must add following code into index.md:
+ >type: "tags"
+
+#### categories
+create page:
+>hexo new page "categories"
+ 
+attention: you must add following code into index.md:
+>type: "categories"
+
+#### local search
  + npm install hexo-generator-search --save
  + add following code into site _config.yml
 ```
