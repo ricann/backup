@@ -67,7 +67,7 @@ pagination_dir: page
 #theme: landscape
 theme: next
 
-# algolia serach config
+# serach config
 algolia:
   appId: 'SI7LHF9NBH'
   apiKey: 'e70ae6e7ce04e6f6020ee183a5f000b0'
@@ -79,6 +79,12 @@ algolia:
     - slug
     - path
     - content:strip
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
