@@ -22,6 +22,7 @@
     "hexo-generator-search": "~2.1.1",
     "shelljs": "~0.7.8",
     "hexo-algolia": "~1.1.0",
-    "hexo-algoliasearch": "~0.2.1"
+    "hexo-algoliasearch": "~0.2.1",
+    "hexo-generator-searchdb": "~1.0.7"
   }
 }

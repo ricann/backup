@@ -1,6 +1,6 @@
 ---
 title: Hexo basic usage
-subtitle: 
+subtitle: Install, config Hexo and Next
 date: 2017-06-13 20:52:33
 author: Ricann
 head-img: 
@@ -21,6 +21,17 @@ comments: true
  + cd blog
  + npm install
  + hexo server
+ 
+### add local search
+ + npm install hexo-generator-search --save
+ + add following code into site _config.yml
+```
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+```
  
 ### write and deploy
  + hexo new "My New Post"
