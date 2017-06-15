@@ -22,6 +22,8 @@ comments: true
  + git diff SHA1_1 SHA1_2 --numstat
  + git diff SHA1_1 SHA1_2 --shortstat
 
+<!--more-->
+
 ## branch
 ### 删除远程分支
 git branch -r -d origin/branch-name
