@@ -3,9 +3,9 @@ title: Linux basic commands
 subtitle: Linux 's basic usage
 date: 2017-06-14 15:40:47
 author: Ricann
-head-img: 
+head-img:
 categories:  tools
-tags:  
+tags:
  - Linux
  - tools
  - command
@@ -47,6 +47,10 @@ comments: true
 dmesg用来显示内核环缓冲区（kernel-ring buffer）内容，内核将各种消息存放在这里。在系统引导时，内核将与硬件和模块初始化相关的信息填到这个缓冲区中。
 
 打印显示后清除环缓冲内的内容：dmesg -c
+
+检查当前系统是否为虚拟机可参照下面命令：
+ + lspci
+ + dmesg | grep vm
 
 ## lspci
 lspci是一个用来显示系统中所有PCI总线设备或连接到该总线上的所有设备的工具。
