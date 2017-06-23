@@ -19,6 +19,7 @@ comments: true
  + break +/-offset    在当前行号的前面或后面的offset行停住。offiset为自然数。
  + break filename:linenum    在源文件filename的linenum行处停住。
  + break ... if <condition>    ...可以是上述的参数，condition表示条件，在条件成立时停住。比如在循环境体中，可以设置break if i=100，表示当i为100时停住程序
+<!--more-->
 
 ## 禁用断点
  + delete    删除所有断点
