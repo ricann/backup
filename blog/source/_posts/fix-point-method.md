@@ -38,24 +38,17 @@ E=mc^2
 如果进行8比特定点，最高位为符号位，那么还有七位可以表示数字，表示范围是[-128, 127)，如果需要定点的数据范围是(-111, 386)，定点步骤如下：
  - 找出一个数字N，使2的N次方正好刚刚大于等于386（386相比-111离0更远），这时N=9
  - 使用下面公式计算出定点位置，得到定点位置-2
-\begin{equation}
-p = 7 - N
-\end{equation}
+
+$$p = 7 - N$$
 
 # 代码实现
 下面函数先根据上面的定点位置计算出定点后的step（二进制最低位加一时实际的变化值），然后根据这个step计算出定点后的数据表示范围的下限和上限：
 
-\begin{equation}
-step = \frac{1}{2^p}
-\end{equation}
+$$step = \frac{1}{2^p}$$
 
-\begin{equation}
-lb = -(2^7)*step
-\end{equation}
+$$lb = -(2^7)*step$$
 
-\begin{equation}
-ub = (2^7)*step - step
-\end{equation}
+$$ub = (2^7)*step - step$$
 
 相关代码实现如下：
 ```
