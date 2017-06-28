@@ -30,7 +30,7 @@ E=mc^2
 
 有些时候，在对神经网络进行训练时，我们需要对浮点数进行定点，例如定点成8/16/32bit等，下图中是一个8 bit定点的例子。
 
-<<!--more-->>
+<!--more-->
 
 ![strategy](/img/fix-point-method/fix-point-strategy.png)
 
