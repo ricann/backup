@@ -13,9 +13,9 @@ keywords:  caffe, fix point, train
 comments: true
 ---
 
-<!--引擎
+<!--引擎-->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
--->
+
 
 <!--
 示例公示：
@@ -40,12 +40,12 @@ E=mc^2
  - 找出一个数字N，使2的N次方正好刚刚大于等于386（386相比-111离0更远），这时N=9
  - 使用下面公式计算出定点位置，得到定点位置-2
 
-$p = 7 - N$
+$$p = 7 - N$$
 
 # 代码实现
 下面函数先根据上面的定点位置计算出定点后的step（二进制最低位加一时实际的变化值），然后根据这个step计算出定点后的数据表示范围的下限和上限：
 
-$step = \frac{1}{2^p}$
+$$step = \frac{1}{2^p}$$
 
 $$lb = -(2^7)*step$$
 
