@@ -13,8 +13,9 @@ keywords:  caffe, fix point, train
 comments: true
 ---
 
-<!--引擎-->
+<!--引擎
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+-->
 
 <!--
 示例公示：
